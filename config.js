@@ -40,8 +40,8 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'https://insight.dashevo.org',
-      apiPrefix:'/insight-api-dash'
+      url: 'https://insight.trivecoin.org',
+      apiPrefix:'/api'
     },
     testnet: {
       provider: 'insight',
