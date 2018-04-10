@@ -34,3 +34,6 @@ db/*
 multilevel/db/*
 
 .idea
+
+*.code-workspace
+package-lock.json
