@@ -40,7 +40,7 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'https://insight.trivecoin.org',
+      url: 'https://localhost:3001',
       apiPrefix:'/api'
     },
     testnet: {
