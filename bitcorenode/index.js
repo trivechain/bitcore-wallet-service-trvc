@@ -90,17 +90,17 @@ Service.prototype._getConfiguration = function() {
   if (self.node.network === Networks.livenet) {
   	if(!baseConfig.blockchainExplorerOpts.livenet)
   	{
-		baseConfig.blockchainExplorerOpts = {
-		  livenet: providerOptions
-		};
+		  baseConfig.blockchainExplorerOpts = {
+        livenet: providerOptions
+      };
     }
   } else if (self.node.network === Networks.testnet) {
   	if(!baseConfig.blockchainExplorerOpts.testnet)
   	{
-		baseConfig.blockchainExplorerOpts = {
-		  testnet: providerOptions
-		};
-	}
+      baseConfig.blockchainExplorerOpts = {
+        testnet: providerOptions
+      };
+	  }
   } else {
     throw new Error('Unknown network');
   }
