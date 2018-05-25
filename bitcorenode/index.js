@@ -88,19 +88,13 @@ Service.prototype._getConfiguration = function() {
   // the configuration options to communicate via the local running
   // instance of the insight-api service.
   if (self.node.network === Networks.livenet) {
-  	if(!baseConfig.blockchainExplorerOpts.livenet)
-  	{
-		  baseConfig.blockchainExplorerOpts = {
+    baseConfig.blockchainExplorerOpts = {
         livenet: providerOptions
-      };
-    }
+    };
   } else if (self.node.network === Networks.testnet) {
-  	if(!baseConfig.blockchainExplorerOpts.testnet)
-  	{
-      baseConfig.blockchainExplorerOpts = {
+    baseConfig.blockchainExplorerOpts = {
         testnet: providerOptions
-      };
-	  }
+    };
   } else {
     throw new Error('Unknown network');
   }
