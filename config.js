@@ -45,7 +45,7 @@ var config = {
     },
     testnet: {
       provider: 'insight',
-      url: 'http://testnet-insight.trivecoin.org',
+      url: 'https://testnet-insight.trivecoin.org',
       apiPrefix:'/api'
       // url: 'testnet-insight.trivecoin.org',
       // url: 'http://localhost:3001',
