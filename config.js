@@ -40,8 +40,8 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'http://localhost:3001',
-      apiPrefix:'/api'
+      url: 'http://192.168.30.107:3001',
+      apiPrefix:'/insight-api-trvc'
     },
     testnet: {
       provider: 'insight',
@@ -59,7 +59,7 @@ var config = {
     defaultUnit: 'btc',
     subjectPrefix: '',
     pushServerUrl: 'https://fcm.googleapis.com/fcm',
-    authorizationKey: '',
+    authorizationKey: 'AIzaSyABG5-i5l__IrUF_iUMtaL3AJ5JRybc5AM',
   },
   fiatRateServiceOpts: {
     defaultProvider: 'BitPay',
